@@ -55,7 +55,6 @@ textarea { min-height: 110px; }
 footer { background: #542c4a; color: #ffeaf4; padding: 34px 0; margin-top: 40px; }
 footer a { color: #ffc4dd; }
 .counters { margin-top: 18px; padding-top: 16px; border-top: 1px solid rgba(255, 234, 244, .25); display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-.counters::before { content: "Статистика посещений"; color: #f7b8d2; font-size: 13px; letter-spacing: .04em; }
 body > a, body > script, body > noscript { display: none; }
 .note { font-size: 15px; color: var(--muted); }
 
