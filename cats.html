@@ -9,11 +9,14 @@
 </head>
 
 <body>
+
+    <!-- Top100 (Kraken) Counter (Sber Ads) -->
     <script>
         (function (w, d, c) {
             (w[c] = w[c] || []).push(function () {
                 var options = {
                     project: 7753153,
+                    element: 'top100_widget' /* Добавлено для отображения плашки */
                 };
                 try {
                     w.top100Counter = new top100(options);
@@ -38,7 +41,7 @@
     </noscript>
     <!-- END Top100 (Kraken) Counter -->
 
-    <!-- Top.Mail.Ru counter -->
+    <!-- Top.Mail.Ru counter (MyTracker) -->
     <script type="text/javascript">
         var _tmr = window._tmr || (window._tmr = []);
         _tmr.push({ id: "3806765", type: "pageView", start: (new Date()).getTime() });
@@ -115,7 +118,12 @@
         <div class="wrap">
             <div>© 2026 Котокафе «Мурчальня», Москва</div>
             <div class="counters">
+                
+                <!-- Контейнер для виджета Sber Ads (добавлен) -->
+                <div id="top100_widget"></div>
+
                 <!--LiveInternet counter--><a href="https://www.liveinternet.ru/click" target="_blank"><img id="licnt4F25" width="88" height="31" style="border:0" title="LiveInternet: показано число просмотров и посетителей за 24 часа" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt="" /></a><script>(function(d,s){d.getElementById("licnt4F25").src="https://counter.yadro.ru/hit?t52.6;r"+escape(d.referrer)+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script><!--/LiveInternet-->
+            
             </div>
         </div>
     </footer>
